@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import * as Typed from 'typed.js';
+import  Typed from 'typed.js';
 
 @Component({
   selector: 'has-content',
@@ -25,7 +25,7 @@ export class ContentComponent implements OnInit {
       loop: true
     };
 	
-	const typed = new Typed('.typing-element', options);
+	const typed =new Typed('.typing-element', options);
   }
 
 
